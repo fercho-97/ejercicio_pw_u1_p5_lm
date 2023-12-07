@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(50, 14, 128);
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cuadricula{
+
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    align-items: center;
+}
+
+.elemcuadricula{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btcuadricula{
+
+width: 140px;
+height: 140px;
+border-radius: 15px;
+background-color: rgba(0, 162, 255, 0.826);
+}
+
+.btcuadricula:hover{
+
+background-color: gray;
+
+
+}
+
+.genenral{
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.resultado{
+
+    width: 435px;
+    height: 50px;
+   font-size: 35px;
+}
+
+.rs{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
